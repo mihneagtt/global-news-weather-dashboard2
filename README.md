@@ -3,7 +3,7 @@ Global News and Weather
 Student: Tomescu-Dumitrescu Mihnea, Grupa 1134
 
 Link Video - Prezentare Proiect: [TBD]
-Link Publicare: [TBD]
+Link Publicare: https://global-news-weather-dashboard2-i8m5.vercel.app/
 
 1. Introducere
 
@@ -227,6 +227,7 @@ Re-render Componente:
 └── NewsDashboard (Articole de știri filtrate)
 
 5. Capturi de Ecran ale Aplicației
+   https://imgur.com/a/d3Q4Lh1
 
 6. Referințe
 
