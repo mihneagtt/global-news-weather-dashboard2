@@ -27,7 +27,7 @@ const WeatherDashboard = ({ location }: WeatherDashboardProps) => {
 
         // Process forecast data to get one forecast per day
         const dailyForecast = forecastData.list
-          .filter((item, index) => index % 8 === 0)
+          .filter((_, index) => index % 8 === 0)
           .slice(0, 5);
 
         setForecast(dailyForecast);
