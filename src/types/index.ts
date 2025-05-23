@@ -84,27 +84,22 @@ export interface ForecastData {
   };
 }
 
-// News API interfaces
-export interface NewsSource {
-  id: string | null;
-  name: string;
-}
-
-export interface NewsArticle {
-  source: NewsSource;
-  author: string | null;
-  title: string;
-  description: string | null;
-  url: string;
-  urlToImage: string | null;
-  publishedAt: string;
-  content: string | null;
-}
-
-export interface NewsResponse {
-  status: string;
-  totalResults: number;
-  articles: NewsArticle[];
+// Guardian API interfaces
+export interface GuardianArticle {
+  id: string;
+  type: string;
+  sectionId: string;
+  sectionName: string;
+  webPublicationDate: string;
+  webTitle: string;
+  webUrl: string;
+  apiUrl: string;
+  fields?: {
+    headline?: string;
+    trailText?: string;
+    thumbnail?: string;
+    bodyText?: string;
+  };
 }
 
 // App interfaces
