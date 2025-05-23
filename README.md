@@ -2,7 +2,7 @@ Global News and Weather
 
 Student: Tomescu-Dumitrescu Mihnea, Grupa 1134
 
-Link Video - Prezentare Proiect: [TBD]
+Link Video - Prezentare Proiect: https://www.youtube.com/watch?v=wTFEju64Wck
 Link Publicare: https://global-news-weather-dashboard2-i8m5.vercel.app/
 
 1. Introducere
