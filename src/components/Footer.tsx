@@ -9,9 +9,6 @@ const Footer = () => {
             </p>
             <p>Powered by NewsAPI and OpenWeatherMap</p>
           </div>
-          <div>
-            <p>Created for Cloud Services Project</p>
-          </div>
         </div>
       </div>
     </footer>
